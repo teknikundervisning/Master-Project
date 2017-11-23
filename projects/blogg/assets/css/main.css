@@ -1,0 +1,43 @@
+@charset 'utf-8';
+
+body {
+    background: #555;
+}
+
+.blogg {
+    width: 50%;
+    height: auto;
+    border: 10px solid #eee;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.date {
+    color: cornflowerblue;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+article p {
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+
+article h1 {
+    font-size: 30px;
+    color: cornflowerblue;
+    text-shadow: 1px 1px 1px black;
+}
+
+.ingress {
+    border-left: 4px solid #fff;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+hr {
+    width: 90%;
+}

@@ -1,0 +1,49 @@
+@charset 'utf-8';
+
+body {
+    background: rebeccapurple;
+}
+
+.wrapper {
+    width: 60%;
+    height: 600px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        ". a ."
+        "b . c"
+        ". d .";
+}
+
+.one {
+    grid-area: a;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.two {
+    grid-area: b;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-right: -3px;
+}
+
+.three {
+    grid-area: c;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-left: -3px;
+}
+
+.four {
+    grid-area: d;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+}
+

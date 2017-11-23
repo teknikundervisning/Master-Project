@@ -1,0 +1,66 @@
+@charset 'utf-8';
+
+body {
+    background: radial-gradient(#eee, red);
+    height: 100vh;
+}
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: 57px;
+    margin-top: 150px;
+}
+.wrapper {
+    width: 900px;
+    height: 600px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+section {
+    transition: all .3s;
+}
+
+section:hover {
+    transform: scale(1.05);
+}
+
+section:nth-child(1) {
+    background-image: url(../images/children.jpg);
+}
+
+section:nth-child(2) {
+    background-image: url(../images/fuzzball.jpg);
+}
+
+section:nth-child(3) {
+    background-image: url(../images/iPad.jpg);
+}
+
+section:nth-child(4) {
+    background-image: url(../images/lurar.jpg);
+}
+
+section:nth-child(5) {
+    background-image: url(../images/ps4.jpg);
+}
+
+section:nth-child(6) {
+    background-image: url(../images/ps4-2.jpg);
+}
+
+section:nth-child(7) {
+    background-image: url(../images/setup-2.jpg);
+}
+
+section:nth-child(8) {
+    background-image: url(../images/setup.jpg);
+}
+
+section:nth-child(9) {
+    background-image: url(../images/setup-3.jpg);
+}
+

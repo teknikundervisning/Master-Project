@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+body {
+    background-color: #929496;
+}
+
+.jumbotron {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: auto;
+    height: 300px;
+    padding-bottom: 80px;
+}
+
+.jumbotron h1 {
+    font-size: 92px;
+    color: #fff;
+    margin: 0;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.jumbotron h3 {
+    margin: 0;
+    color: orange;
+    font-size: 35px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.jumbotron button {
+    margin-top: 50px;
+    padding: 20px 60px; /* värde1: top/bottom värde2: left/right */
+    border-radius: 5px;
+    background: linear-gradient(#fff, #999);
+    font-size: 20px;
+    font-family: courier;
+    
+}
+
+.jumbotron button:hover {
+    background: linear-gradient(#999, #fff);
+    font-weight: bold;
+}
+
+nav {
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+nav ul li {
+    color: orange;
+}
+
+nav ul li a {
+    color: #e2e0b3;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+main {
+    border: 1px solid black;
+}
+
+.main-content {
+    width: 100%;
+    height: 450px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content p {
+    width: 20%;
+    padding: 50px;
+/*    margin: 50px;*/
+}
+
+.main-content:nth-child(odd) {
+    background-color: #ddd;
+    flex-flow: row;
+}
+
+.main-content:nth-child(even) {
+    background-color: #ccc;
+    flex-flow: row-reverse;
+}
+
+footer {
+    display: flex;
+    flex-flow: row; 
+    justify-content: center; /* Justerar Main Axis */
+    align-items: center; /* Justerar Cross Axis */
+}
+
+footer p::first-letter {
+    font-size: 50px;
+    vertical-align: middle;
+}
