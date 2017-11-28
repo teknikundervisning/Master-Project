@@ -42,7 +42,7 @@ nav {
 
 .dropdown:hover .dropdown-child {
     visibility: visible;
-    opacity: 1;
+    opacity: .99999;
 }
 
 .dropdown-grandchild {
